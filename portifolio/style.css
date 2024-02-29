@@ -1,0 +1,172 @@
+/* display background color black on navbar scroll */
+.navbarScroll.navbarDark {
+  background-color: rgb(26, 24, 24);
+
+}
+.nav-link{
+  color: #1120c1;
+
+}
+
+
+
+
+
+ #home{
+    height: 720px;
+    padding-left: 950px;
+    padding-top: 100px;
+    
+  } 
+
+  .bgimage {
+    height:100vh;
+    background: url('file:///C:/bharathintern/portifolio/home.jpeg');
+    background-size:cover;
+    position:relative;
+}
+.pre{
+  color: rgb(236, 233, 233);
+  padding-top: 0%;
+  padding-left: 5px;
+}
+.h3{
+  color: #4a4aea;
+   padding-bottom: 0;
+   padding-left:50px ;
+}
+content {
+  position: absolute;
+  top: 35%;
+  left: 8%;
+  
+}
+
+.content h1 {
+  color: #efeff8;
+  font-size: 65px;
+  font-weight: 900;
+  line-height: 90px;
+  text-transform: inherit;
+  width: 70%;
+}
+.content h1 span {
+  color: #0a0a0a;
+  font-size: 55px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  display: inline-block;
+  margin-bottom: 5px;
+  background: linear-gradient(
+    120deg,
+    #d6db48  20.69%,
+    #1abad2 33.19%,
+    #76e911 79.69%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.btn {
+
+   text-decoration: none;
+   text-align: center;
+   background-color: #34cfe7; 
+   color: #161627;
+   font-family: impact;
+   font-style: oblique;
+   font-size: 30px;
+   align-items : center;
+   border-radius: 7%;
+   
+}
+.btn:hover{
+  background-color: #e61b0d;
+  color: rgb(23, 21, 21);
+}
+#cv{
+  align-items : center;
+  background-color:#34cfe7;
+  border: none;
+  border-radius: 7;
+  background-position: 100px;
+  margin-left: 190px;
+  
+}
+
+
+
+
+
+#about{
+  height: 650px;
+  background-color: #868181;
+  padding-top: 0%;
+  padding-bottom: 0%;
+}
+.aboutimage{
+  border-radius: 50%;
+  width:300px;
+  height: 300px;
+}
+
+
+
+
+
+
+#portfolio{
+  height: 1200px;
+  background-color: #868181;
+}
+.card-img-top
+{
+  width: 180px;
+  height: 200px;
+}
+
+
+
+
+#contact{
+  color: #100f0f;
+  height: 560px;
+  padding-bottom: 4rem;
+  background-color: #868181;
+  padding-top: 10px;
+}
+
+.form{
+  padding-left: 300px;
+ }
+
+
+
+ #footer {
+  background-color: #060000;
+  text-align: center;
+  text-align: center;
+  padding: 6px;
+}
+
+.iconimages{
+  font-size: 50px;
+}
+.social-icons {
+  font-size: 36px;
+  cursor: pointer;
+}
+.fa-facebook:hover,
+
+.fa-linkedin:hover
+ {
+  color: #4320ef;
+}
+.fa-instagram:hover
+{
+  color: #e14899;
+}
+
+.fab {
+  color: #e3d9d9;
+}

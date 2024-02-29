@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+nav{
+   position: sticky; 
+  top:0;
+  text-align: center;
+  padding: 20px;
+  background-color:#c1b3e7;
+  height: 60px;
+
+}
+nav li{
+  display: inline-block;
+  border-radius: 5px;
+}
+nav li a{
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 20px;
+  color: black;
+}
+nav li.active{
+  background-color: #3e3ed4;
+  
+}
+nav li.active a {
+  color: #dae3e5;
+}
+section {
+  height: 700px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  color:#733232
+  
+}
+#home
+  {
+   background-color: #b9e4f4;
+  }
+
+#about{
+  background-color: #b9e4f4;
+}
+#portfolio{
+  background-color: #b9e4f4;
+}
+#contact{
+  background-color: #b9e4f4;
+}
+.content {
+  position: absolute;
+  top: 35%;
+  left: 8%;
+  
+}
+.content .title {
+  color: #252be0;
+  font-size: 35px;
+  
+}
+.content h1 {
+  color: #1f1f25;
+  font-size: 75px;
+  font-weight: 900;
+  line-height: 90px;
+  text-transform: inherit;
+  width: 70%;
+}
+.content h1 span {
+  color: #0a0a0a;
+  font-size: 55px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  display: inline-block;
+  margin-bottom: 20px;
+  background: linear-gradient(
+    120deg,
+    #e92d11 20.69%,
+    #4fc1d2 50.19%,
+    #da0caa 79.69%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.content p {
+  width: 55%;
+  color: #202020;
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+.btn {
+
+   text-decoration: none;
+   text-align: center;
+   background-color: #e24d33;
+   color: #161627;
+   font-family: impact;
+   font-style: oblique;
+   font-size: 30px;
+   align-items : center;
+   border-radius: 7%;
+   
+}
+.btn:hover{
+  background-color: #34cfe7;
+  color: rgb(23, 21, 21);
+}
+#cv{
+  align-items : center;
+  background-color: #e24d33;
+  border: none;
+  border-radius: 7
+  
+  
+  
+  %;
+  padding: 7px;
+  
+}
+#cv:hover{
+  background-color: #34cfe7;
+  color: rgb(23, 21, 21);
+}
